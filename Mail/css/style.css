@@ -26,6 +26,14 @@
     padding: 2px;
 }
 
+.correct::after{
+    content: "\f118 \f118 \f118";
+    font-family: 'Font Awesome 6 Free';
+    position: absolute;
+    bottom:110%;
+    left: 15%;
+} 
+
 .error{
     color: red;
     border: 10px solid red;
@@ -34,6 +42,9 @@
 }
 
 .error::after{
-    content: "f584";
-    font-family: ;
-}
+    content: "\f119 \f119 \f119";
+    font-family: 'Font Awesome 6 Free';
+    position: absolute;
+    bottom:110%;
+    left: 25%;
+}       
