@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 800px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.output-email{
+    text-align: center;
+    font-size: 8em;
+    position: relative;
+}
+
+.correct{
+    color: green;
+    border: 10px solid green;
+    border-radius: .5em;
+    padding: 2px;
+}
+
+.error{
+    color: red;
+    border: 10px solid red;
+    border-radius: .5em;
+    padding: 2px;
+}
+
+.error::after{
+    content: "f584";
+    font-family: ;
+}
